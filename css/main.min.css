@@ -2,6 +2,10 @@ a{
     color:#fff
 }
 
+img.footer-ico.footer-logo-sm {
+    width: 58px;
+}
+
 .page-content > p {
     font-size: 14px;
     line-height: 25px;
@@ -81,6 +85,9 @@ body .small{
 @media (max-width: 575px){
     body .container{
         max-width:none
+    }
+    img.footer-ico.footer-logo-sm {
+        width: 45px;
     }
 }
 @media (max-width: 991px){
